@@ -1,21 +1,30 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
 
-        Calculator calculator = new Calculator();
+        final Calculator calculator = new Calculator();
         Scanner CLIScanner = new Scanner(System.in);
         printHeader();
         while(true){
             System.out.print("Enter expression:");
             String expression = CLIScanner.nextLine();
+
             if(userWantsToQuit(expression))
                 break;
-            System.out.println(expression + " = " + calculator.calculate(expression));
+
+            try{
+                System.out.println(expression + " = " + calculator.calculate(expression));
+            }catch (UnsupportedOperationException unsupportedException){
+                System.out.println("This operation is not supported");
+            }
+
         }
         System.out.println("Thank you for using the calculator!");
 
     }
+
 
     private static void printHeader(){
         System.out.println("=========================");
@@ -24,8 +33,8 @@ public class Main {
         System.out.println("=========================");
     }
 
-    private static boolean userWantsToQuit(String expression){
-        return expression.equals("exit");
+    public static boolean userWantsToQuit(String expression){
+        return expression.trim().toLowerCase().equals("exit");
     }
 
 }
