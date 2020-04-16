@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
     <groupId>org.example</groupId>
     <artifactId>Calculator-CLI</artifactId>
     <version>1</version>
@@ -14,18 +15,65 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <github>github</github>
     </properties>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/simeonfilev/CLI-Calculator</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
-            <groupId>com.mylib</groupId>
-            <artifactId>mylib-core</artifactId>
-            <version>0.0.1</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.4.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>Calculator</artifactId>
+            <version>1.0-snapshot</version>
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>github</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>true</enabled></snapshots>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <name>GitHub OWNER Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/simeonfilev/CLI-Calculator</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+
     <build>
+
         <plugins>
+
+
+
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
@@ -48,6 +96,8 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
+
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -91,8 +141,7 @@
                     </execution>
                 </executions>
             </plugin>
-
+            -->
         </plugins>
     </build>
-
 </project>

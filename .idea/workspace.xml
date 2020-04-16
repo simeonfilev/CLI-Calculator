@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a0d7062-5cfa-4ded-820c-d3bf9eff2cb2" name="Default Changelist" comment="" />
+    <list default="true" id="3a0d7062-5cfa-4ded-820c-d3bf9eff2cb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Calculator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Calculator-CLI-1-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Calculator-CLI-1-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Calculator-CLI-1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Calculator-CLI-1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +28,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -29,14 +47,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TDD-Calculator" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=7b9d2503bbb0577ae9e0d4a5a46e5051e361fe89" />
+      <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=da7b4aded2bc7ee1cc2b7a2b987a0e732d211303" />
+      <command value="mvn mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=ca38aa0c06f352e45965a83836e6566750e99234" />
+      <command value="mvn install -Dtoken=ca38aa0c06f352e45965a83836e6566750e99234" />
+      <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=ca38aa0c06f352e45965a83836e6566750e99234" />
+      <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=245bd793edd689f86a0a5f9ff90854ef8066fcf7" />
+      <command value="mvn deploy -Dregistry=https://maven.pkg.github.com/simeonfilev -Dtoken=37345790b7e958a20a27a8a7b14c830dcdf0c5b4" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest.userWantsToExitIsWorkingCorrectly">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Calculator-CLI" />
@@ -44,8 +75,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.mainMethodIsWorkingCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="mainMethodIsWorkingCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.userWantsToExitIsWorkingCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CLI-Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="userWantsToExitIsWorkingCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.userWantsToExitIsWorkingCorrectly" />
+        <item itemvalue="JUnit.MainTest.mainMethodIsWorkingCorrectly" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -61,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586949140013</updated>
       <workItem from="1586949142773" duration="5712000" />
+      <workItem from="1586968205265" duration="3881000" />
+      <workItem from="1587028547897" duration="10849000" />
     </task>
     <servers />
   </component>
@@ -68,30 +123,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="159" key="FileChooserDialogImpl" timestamp="1586951409733">
+    <state x="485" y="76" key="#Main" timestamp="1587046266487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="501" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1586951409733" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1586957219687">
+    <state x="485" y="76" key="#Main/0.0.1536.834@0.0.1536.834" timestamp="1587046266487" />
+    <state x="501" y="159" key="FileChooserDialogImpl" timestamp="1587037660081">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586957219687" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1586957219687">
+    <state x="501" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587037660081" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1587046666932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586957219687" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1586957219687">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587046666932" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1587046666932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586957219687" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1586957219687">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587046666932" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1587046666932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586957219687" />
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1586956028304">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587046666932" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1587046666932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1586956028304" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587046666932" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1587045696778">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1587045696778" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1586951410507">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -100,5 +159,13 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="584" y="195" key="chooseDestDirectoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1586955049860" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1587031235330">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587031235330" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1587046258756">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1587046258756" />
   </component>
 </project>
